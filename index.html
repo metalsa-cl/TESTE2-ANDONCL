@@ -106,7 +106,8 @@ timeout();
    
    function timeout() {
     setTimeout(function () {         
-        document.getElementById('iframeid2').src += '';         
+        document.getElementById('iframeid2').src += '';
+        document.getElementById('iframeid3').src += ''; 
         timeout();
     }, 60000);
 }     
